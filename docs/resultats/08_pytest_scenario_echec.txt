@@ -1,0 +1,5 @@
+Tests unitaires..........................................................Failed
+>       assert calculate(2, 3, "add") == 6
+E       AssertionError: assert 5 == 6
+FAILED test_app.py::test_addition - AssertionError: assert 5 == 6
+1 failed, 8 passed in 0.25s

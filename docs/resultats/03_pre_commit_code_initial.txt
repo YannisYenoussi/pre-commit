@@ -1,0 +1,10 @@
+trim trailing whitespace.................................................Passed
+fix end of files.........................................................Passed
+check for added large files..............................................Passed
+check yaml...............................................................Passed
+bandit...................................................................Failed
+>> Issue: [B307:blacklist] Use of possibly insecure function - consider using safer ast.literal_eval.
+   Location: .\app.py:6:13
+Detect secrets...........................................................Failed
+Secret Type: Secret Keyword
+Location:    app.py:4
